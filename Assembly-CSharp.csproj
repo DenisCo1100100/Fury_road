@@ -64,6 +64,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\CarControll.cs" />
+    <Compile Include="Assets\Scripts\EnemyBox.cs" />
+    <Compile Include="Assets\Scripts\MoveGameObject.cs" />
     <Compile Include="Assets\Scripts\SpawnerObjects.cs" />
     <Reference Include="UnityEngine">
       <HintPath>D:/Work/UnityHub/2019.4.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>

@@ -13,7 +13,7 @@ public class SpawnerObjects : MonoBehaviour
     public float minDelay;
     public float maxDelay;
 
-    // Start is called before the first frame update
+
     void Start()
     {
         if (isSameDelay)
@@ -22,33 +22,34 @@ public class SpawnerObjects : MonoBehaviour
         }
         else
         {
-            
+            StartCoroutine(Spawner());
         }
     }
 
     private IEnumerator Spawner()
     {
         yield return new WaitForSeconds(Random.Range(minDelay, maxDelay));
-        Spawner();
+        Spawn();
     }
 
     private void Spawn()
     {
         
-        if (isRandomObject)
+        if (isRanomObject)
         {
-           GameObkect obj = Instantiate(ObjectsToSpwan[Random.Range(0, ObjectsToSpwan.Length)], transform.position, transform.rotation) as GameObject;
+           GameObject obj = Instantiate(objectsToSpawn[Random.Range(0, objectsToSpawn.Length)], transform.position, transform.rotation) as GameObject;
         }
-        if (!isRanomObject)
+        else
         {
             GameObject obj = Instantiate(objectToSpawn, transform.position, transform.rotation) as GameObject;
         }
-        else if (!isSameDelay)
+
+        if (!isSameDelay)
         {
-            StartCorotine(Spawner());
+            StartCoroutine(Spawner());
         }
     } 
-    // Update is called once per frame
+
     void Update()
     {
         
