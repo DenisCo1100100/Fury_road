@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 2890559877801229714}
   - component: {fileID: 8920998954040625851}
   - component: {fileID: -8721209036063708493}
+  - component: {fileID: 2671557266881915727}
   m_Layer: 0
   m_Name: Coins
   m_TagString: Untagged
@@ -29,11 +30,11 @@ Transform:
   m_GameObject: {fileID: 6945274452777468437}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.15}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 0.06}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 349.91998, z: 0}
 --- !u!33 &2391571697768127184
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -106,4 +107,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c09775b8cc572748a97360893904d42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveVector: {x: 0, y: 0, z: 1}
+  moveVector: {x: 0, y: 0, z: -1}
+--- !u!111 &2671557266881915727
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6945274452777468437}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 8e3576fe325fd54489061385d0fcefb6, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 8e3576fe325fd54489061385d0fcefb6, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0

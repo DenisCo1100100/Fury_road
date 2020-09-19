@@ -4,32 +4,24 @@ using UnityEngine;
 
 public class CarControll : MonoBehaviour
 {
+    private Vector3 moveLeftVector = new Vector3(-1f, 0, 0);
+    private Vector3 moveRightVector = new Vector3(1f, 0, 0);
     public Transform target;
-    public Vector3 moveLeftVector;
-    public Vector3 moveRightVector;
     public float speed;
-
-    void Start()
-    {    
-    }
 
     void Update()
     {
-        Vector3 movePositions = new Vector3(target.position.x, 1.18f, -5.70f);
+        Vector3 movePositions = new Vector3(target.position.x, 0.1f, -3.83f);
 
         if (Input.GetKey(KeyCode.A))
         {
             if (target.transform.position.x > -2.8f)
-            {
                 target.transform.Translate(moveLeftVector * Time.deltaTime * speed);
-            }
         }
         if (Input.GetKey(KeyCode.D))
         {
             if (target.transform.position.x < 2.8f)
-            {
                 target.transform.Translate(moveRightVector * Time.deltaTime * speed);
-            }
         }
 
         transform.LookAt(target);

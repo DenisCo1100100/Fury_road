@@ -65,6 +65,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\CarControll.cs" />
     <Compile Include="Assets\Scripts\EnemyBox.cs" />
+    <Compile Include="Assets\Scripts\MoveCoin.cs" />
     <Compile Include="Assets\Scripts\MoveGameObject.cs" />
     <Compile Include="Assets\Scripts\SpawnerObjects.cs" />
     <Reference Include="UnityEngine">

@@ -2,7 +2,7 @@
 
 public class EnemyBox : MonoBehaviour
 {
-    public void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter(Collider other)
     {
         if (other.name == "Car")
         {
