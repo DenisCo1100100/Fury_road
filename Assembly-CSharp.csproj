@@ -68,6 +68,7 @@
     <Compile Include="Assets\Scripts\MoveCoin.cs" />
     <Compile Include="Assets\Scripts\MoveGameObject.cs" />
     <Compile Include="Assets\Scripts\SpawnerObjects.cs" />
+    <Compile Include="Assets\Scripts\UIMainMenu.cs" />
     <Reference Include="UnityEngine">
       <HintPath>D:/Work/UnityHub/2019.4.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
