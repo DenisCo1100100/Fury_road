@@ -2,7 +2,7 @@
 
 public class MoveGameObject : MonoBehaviour
 {
-    [SerializeField]private Vector3 moveVector;
+    [SerializeField] private Vector3 moveVector;
     private float speead = 3;
     private float timeBeforeDestroy = 10;
     

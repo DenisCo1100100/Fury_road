@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class EnemyBox : MonoBehaviour
 {
@@ -6,7 +7,7 @@ public class EnemyBox : MonoBehaviour
     {
         if (other.name == "Car")
         {
-            Debug.Log("You loos");
+            //ADD
         }
     }
 }
