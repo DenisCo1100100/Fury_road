@@ -4,8 +4,8 @@ using UnityEngine;
 
 public static class GameState
 {
-    public static int CollectedСoins { get; private set; }
-    public static int DistanceTraveled { get; private set; }
+    public static int CollectedСoins { get; set; }
+    public static int DistanceTraveled { get; set; }
 
     public static void AddCoin(int numberCoin)
     {

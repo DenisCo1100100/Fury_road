@@ -70,6 +70,7 @@
     <Compile Include="Assets\Scripts\MoveCoin.cs" />
     <Compile Include="Assets\Scripts\MoveGameObject.cs" />
     <Compile Include="Assets\Scripts\SpawnerObjects.cs" />
+    <Compile Include="Assets\Scripts\UIScripts\GameOverController.cs" />
     <Compile Include="Assets\Scripts\UIScripts\GameOverUI.cs" />
     <Compile Include="Assets\Scripts\UIScripts\UIMainMenu.cs" />
     <Reference Include="UnityEngine">

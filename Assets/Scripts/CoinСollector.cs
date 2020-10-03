@@ -7,7 +7,7 @@ public class CoinСollector : MonoBehaviour
         if (other.name == "Car")
         {
             GameState.AddCoin(1);
-            Destroy(gameObject, 0.01f);
+            Destroy(gameObject, 0.02f);
         }
     }
 }

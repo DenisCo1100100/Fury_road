@@ -13,7 +13,6 @@ public class SpawnerObjects : MonoBehaviour
     public float minDelay;
     public float maxDelay;
 
-
     void Start()
     {
         if (isSameDelay)
@@ -48,10 +47,5 @@ public class SpawnerObjects : MonoBehaviour
         {
             StartCoroutine(Spawner());
         }
-    } 
-
-    void Update()
-    {
-        
     }
 }

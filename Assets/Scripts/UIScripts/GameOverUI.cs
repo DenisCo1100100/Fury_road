@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class GameOverUI : MonoBehaviour
@@ -12,8 +13,8 @@ public class GameOverUI : MonoBehaviour
         numberCoin.text = GameState.CollectedСoins.ToString();
     }
 
-    public void SetActive()
+    public void LodingMainMenu()
     {
-        gameObject.SetActive(true);
+        SceneManager.LoadScene("Menu");
     }
 }

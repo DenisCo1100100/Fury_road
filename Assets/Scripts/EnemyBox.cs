@@ -7,7 +7,8 @@ public class EnemyBox : MonoBehaviour
     {
         if (other.name == "Car")
         {
-            //ADD
+            GameOverController.Instance.gameObject.SetActive(true);
+            Destroy(other);
         }
     }
 }
