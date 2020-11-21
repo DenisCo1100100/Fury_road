@@ -47,6 +47,7 @@
   <PropertyGroup>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <UnityProjectGenerator>Unity/VSTU</UnityProjectGenerator>
+    <UnityProjectGeneratorVersion>4.8.2.0</UnityProjectGeneratorVersion>
     <UnityProjectType>Game:1</UnityProjectType>
     <UnityBuildTarget>StandaloneWindows:5</UnityBuildTarget>
     <UnityVersion>2019.4.2f1</UnityVersion>
@@ -66,12 +67,13 @@
     <Compile Include="Assets\Scripts\CarControll.cs" />
     <Compile Include="Assets\Scripts\CoinСollector.cs" />
     <Compile Include="Assets\Scripts\EnemyBox.cs" />
-    <Compile Include="Assets\Scripts\GameState.cs" />
     <Compile Include="Assets\Scripts\MoveCoin.cs" />
     <Compile Include="Assets\Scripts\MoveGameObject.cs" />
+    <Compile Include="Assets\Scripts\SoundControl.cs" />
     <Compile Include="Assets\Scripts\SpawnerObjects.cs" />
     <Compile Include="Assets\Scripts\UIScripts\GameOverController.cs" />
     <Compile Include="Assets\Scripts\UIScripts\GameOverUI.cs" />
+    <Compile Include="Assets\Scripts\UIScripts\GameState.cs" />
     <Compile Include="Assets\Scripts\UIScripts\UIMainMenu.cs" />
     <Reference Include="UnityEngine">
       <HintPath>D:/Work/UnityHub/2019.4.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
