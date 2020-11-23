@@ -3,11 +3,16 @@
 public class MoveGameObject : MonoBehaviour
 {
     [SerializeField] private Vector3 moveVector;
-    private float speead = 3;
+    [SerializeField] private float speead = 5;
     private float timeBeforeDestroy = 10;
     
     void Start()
     {
+        if (gameObject.tag == "CarSpawnerPassing")
+        {
+            gameObject.transform.rotation = Quaternion.LookRotation(Vector3.zero);
+        }
+
         Destroy(gameObject, timeBeforeDestroy);
     }
 

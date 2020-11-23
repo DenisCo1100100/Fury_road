@@ -109,6 +109,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveVector: {x: 0, y: 0, z: -1}
+  speead: 5
 --- !u!111 &2671557266881915727
 Animation:
   m_ObjectHideFlags: 0
