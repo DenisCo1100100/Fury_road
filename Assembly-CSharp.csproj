@@ -71,9 +71,11 @@
     <Compile Include="Assets\Scripts\MoveGameObject.cs" />
     <Compile Include="Assets\Scripts\SoundControl.cs" />
     <Compile Include="Assets\Scripts\SpawnerObjects.cs" />
+    <Compile Include="Assets\Scripts\StaticMenagerSetings.cs" />
     <Compile Include="Assets\Scripts\UIScripts\GameOverController.cs" />
     <Compile Include="Assets\Scripts\UIScripts\GameOverUI.cs" />
     <Compile Include="Assets\Scripts\UIScripts\GameState.cs" />
+    <Compile Include="Assets\Scripts\UIScripts\SetingMenu.cs" />
     <Compile Include="Assets\Scripts\UIScripts\UIMainMenu.cs" />
     <Reference Include="UnityEngine">
       <HintPath>D:/Work/UnityHub/2019.4.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>

@@ -8,6 +8,7 @@ public class SoundControl : MonoBehaviour
     private void Start()
     {
         audioSource = gameObject.GetComponent<AudioSource>();
+        audioSource.volume = StaticMenagerSetings.volume;
         PlayRandomMusic();
     }
 
