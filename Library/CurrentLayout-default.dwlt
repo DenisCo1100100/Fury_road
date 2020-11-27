@@ -115,7 +115,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 12004, y: 14042}
   vertical: 1
-  controlID: 734
+  controlID: 1433
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -141,7 +141,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 221}
   m_MaxSize: {x: 12004, y: 4021}
   vertical: 0
-  controlID: 735
+  controlID: 1434
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -373,9 +373,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 942e0000
-      m_LastClickedID: 0
-      m_ExpandedIDs: 5af8ffff6afbffff94360000d0360000
+      m_SelectedIDs: fa330000
+      m_LastClickedID: 13306
+      m_ExpandedIDs: 6afbffffb6330000fa330000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -435,9 +435,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 304.2219, y: 240.82826, z: -51.96751}
+    m_Target: {x: 280.09586, y: 242.47322, z: -53.36128}
     speed: 2
-    m_Value: {x: 304.2219, y: 240.82826, z: -51.96751}
+    m_Value: {x: 280.09586, y: 242.47322, z: -53.36128}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -487,9 +487,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 184.11847
+    m_Target: 196.6515
     speed: 2
-    m_Value: 184.11847
+    m_Value: 196.6515
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -681,20 +681,20 @@ MonoBehaviour:
     m_SkipHidden: 1
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/Scripts/UIScripts
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Scripts/UIScripts
   m_LastFoldersGridSize: 16
   m_LastProjectPath: D:\My Unity Project\Fury Road
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 1a360000
-    m_LastClickedID: 13850
-    m_ExpandedIDs: 00000000fc350000fe35000000360000023600000436000006360000
+    m_SelectedIDs: 72340000
+    m_LastClickedID: 13426
+    m_ExpandedIDs: 00000000523400005434000056340000583400005a3400005c3400006e340000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -722,7 +722,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000fc350000fe35000000360000023600000436000006360000
+    m_ExpandedIDs: 00000000523400005434000056340000583400005a3400005c340000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -839,7 +839,7 @@ MonoBehaviour:
     m_ControlHash: 0
     m_PrefName: 
   m_PreviewWindow: {fileID: 0}
-  m_LastInspectedObjectInstanceID: 11924
+  m_LastInspectedObjectInstanceID: 13306
   m_LastVerticalScrollValue: 0
   m_ParentInspectorWindow: {fileID: 16}
 --- !u!114 &20
@@ -870,4 +870,4 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 13210
+  m_LastSelectedObjectID: 13306
