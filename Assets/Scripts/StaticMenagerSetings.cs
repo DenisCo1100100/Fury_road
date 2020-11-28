@@ -5,4 +5,5 @@ using UnityEngine;
 public static class StaticMenagerSetings
 {
     public static float volume { get; set; }
+    public static float speed { get; set; }
 }

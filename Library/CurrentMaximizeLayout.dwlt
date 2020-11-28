@@ -22,9 +22,9 @@ MonoBehaviour:
     width: 1366
     height: 635
   m_MinSize: {x: 578, y: 471}
-  m_MaxSize: {x: 12003, y: 14021}
+  m_MaxSize: {x: 12003, y: 14042}
   vertical: 1
-  controlID: 1266
+  controlID: 1444
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -139,10 +139,10 @@ MonoBehaviour:
     y: 0
     width: 1366
     height: 364
-  m_MinSize: {x: 578, y: 221}
+  m_MinSize: {x: 578, y: 200}
   m_MaxSize: {x: 12003, y: 4021}
   vertical: 0
-  controlID: 1261
+  controlID: 1445
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -162,8 +162,8 @@ MonoBehaviour:
     y: 0
     width: 203
     height: 364
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 5}
   m_Panes:
   - {fileID: 5}
@@ -289,9 +289,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 280.09586, y: 242.47322, z: -53.36128}
+    m_Target: {x: 289.19263, y: 229.47797, z: -54.08715}
     speed: 2
-    m_Value: {x: 280.09586, y: 242.47322, z: -53.36128}
+    m_Value: {x: 289.19263, y: 229.47797, z: -54.08715}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -341,9 +341,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 196.6515
+    m_Target: 213.97849
     speed: 2
-    m_Value: 196.6515
+    m_Value: 213.97849
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -477,8 +477,8 @@ MonoBehaviour:
     y: 0
     width: 280
     height: 364
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 11}
   m_Panes:
   - {fileID: 11}
@@ -511,17 +511,18 @@ MonoBehaviour:
     height: 343
   m_ViewDataDictionary: {fileID: 0}
   m_OpenAddComponentMenu: 0
-  m_ObjectsLockedBeforeSerialization: []
-  m_InstanceIDsLockedBeforeSerialization: 
+  m_ObjectsLockedBeforeSerialization:
+  - {fileID: 0}
+  m_InstanceIDsLockedBeforeSerialization: fa330000
   m_LockTracker:
-    m_IsLocked: 0
+    m_IsLocked: 1
   m_PreviewResizer:
     m_CachedPref: -151
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_PreviewWindow: {fileID: 15}
   m_LastInspectedObjectInstanceID: 13306
-  m_LastVerticalScrollValue: 0
+  m_LastVerticalScrollValue: 260
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -541,8 +542,8 @@ MonoBehaviour:
     y: 364
     width: 1366
     height: 271
-  m_MinSize: {x: 230, y: 250}
-  m_MaxSize: {x: 10000, y: 10000}
+  m_MinSize: {x: 230, y: 271}
+  m_MaxSize: {x: 10000, y: 10021}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -590,20 +591,20 @@ MonoBehaviour:
     m_SkipHidden: 1
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts/UIScripts
+    - Assets/Scripts
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Scripts/UIScripts
+  - Assets/Scripts
   m_LastFoldersGridSize: 16
   m_LastProjectPath: D:\My Unity Project\Fury Road
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 72340000
-    m_LastClickedID: 13426
-    m_ExpandedIDs: 00000000523400005434000056340000583400005a3400005c3400006e340000
+    m_SelectedIDs: 70340000
+    m_LastClickedID: 13424
+    m_ExpandedIDs: 000000005434000056340000583400005a3400005c3400005e340000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -631,7 +632,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000523400005434000056340000583400005a3400005c340000
+    m_ExpandedIDs: 000000005434000056340000583400005a3400005c3400005e340000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 

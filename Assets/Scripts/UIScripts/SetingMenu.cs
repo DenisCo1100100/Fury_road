@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class SetingMenu : MonoBehaviour
 {
     [SerializeField] private GameObject mainMenu;
+    [SerializeField] private Slider speedCar;
     private AudioSource menuSound;
     private Slider musicVolume;
 
@@ -19,5 +20,6 @@ public class SetingMenu : MonoBehaviour
     {
         StaticMenagerSetings.volume = musicVolume.value;
         menuSound.volume = musicVolume.value;
+        StaticMenagerSetings.speed = speedCar.value;
     }
 }
